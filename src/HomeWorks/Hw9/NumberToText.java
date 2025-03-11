@@ -2,7 +2,7 @@ package HomeWorks.Hw9;
 
 public class NumberToText {
     public static void main(String[] args) {
-        System.out.println(numberToText(4523));
+        System.out.println(numberToText(6788888));
     }
 
     public static String numberToText(int number) {

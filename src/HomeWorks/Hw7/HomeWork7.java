@@ -1,6 +1,7 @@
 package HomeWorks.Hw7;
 
-public class HomeWork7 {
+public class
+HomeWork7 {
 
     public static int sum (int a, int b){
         return a + b;

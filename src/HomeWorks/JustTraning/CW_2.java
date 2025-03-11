@@ -6,8 +6,8 @@ public class CW_2 {
             return 0.0;
         }
         double sum = 0;
-        for (int i=0; i < numbers.length; i++) {
-            sum += numbers[i];
+        for (double number:numbers) {
+            sum += number;
 
         }
         return sum;
