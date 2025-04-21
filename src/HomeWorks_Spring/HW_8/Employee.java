@@ -6,21 +6,21 @@ public class Employee {
     private char sex;
     private double dailySalary;
 
-    public String getEmployeeName() {
-        return employeeName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public char getSex() {
-        return sex;
-    }
-
-    public double getDailySalary() {
-        return dailySalary;
-    }
+//    public String getEmployeeName() {
+//        return employeeName;
+//    }
+//
+//    public int getAge() {
+//        return age;
+//    }
+//
+//    public char getSex() {
+//        return sex;
+//    }
+//
+//    public double getDailySalary() {
+//        return dailySalary;
+//    }
 
     public Employee(String employeeName, int age, char sex, double dailySalary) {
         this.employeeName = employeeName;
@@ -44,6 +44,7 @@ public class Employee {
     }
 
     public Manager convertToManager(int countEmp) {
-     return new Manager(employeeName, age, sex, dailySalary, countEmp);
+        
+        return new Manager(employeeName, age, sex, dailySalary, countEmp);
     }
 }
