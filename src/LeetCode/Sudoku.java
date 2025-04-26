@@ -13,8 +13,8 @@ public class Sudoku {
 
         for (int i = 0; i < 9; i++) {
 
-            if (Arrays.c)
-            for (int j = 0; j < ; j++) {
+           // if (Arrays.c)
+            for (int j = 0; j < 3; j++) {
 
             }
         }
