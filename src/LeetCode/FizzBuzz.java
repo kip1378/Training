@@ -23,6 +23,6 @@ public class FizzBuzz {
     }
 
     public static void main(String[] args) {
-        System.out.println(fizzBuzz(96));
+        System.out.println(fizzBuzz(86));
     }
 }
